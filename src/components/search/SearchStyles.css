@@ -1,0 +1,125 @@
+.search {
+    width: 100%;
+    padding: 3rem 0;
+    font-family: cursive;
+}
+
+.search .container {
+    font-family: cursive;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 1rem;
+    padding: 0 1rem;
+}
+
+.search-col-2 {
+    font-family: cursive;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.search .box {
+    font-family: cursive;
+    display: flex;
+    max-width: 310px;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+
+.right {
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.promo {
+    font-family: cursive;
+    width: 100%;
+    margin: .4rem 0;
+    margin-bottom: 4rem;
+    border: 1px solid #333;
+    text-align: center;
+}
+
+.promo h4 {
+    font-family: cursive;
+    font-size: 1.6rem;
+    color: var(--primary-dark);
+}
+
+.promo .timer {
+    font-family: cursive;
+    padding: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.promo .offers {
+    font-family: cursive;
+    background: #333;
+    color: #f5f5f5;
+    padding: .4rem 0;
+}
+
+.search form {
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-wrap {
+    font-family: cursive;
+    margin: .4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.search input,
+select {
+    font-family: cursive;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+}
+
+.search .date {
+    font-family: cursive;
+    display: flex;
+}
+
+.search button {
+    font-family: cursive;
+    margin: .4rem;
+}
+
+
+@media screen and (max-width: 940px) {
+    .search .container {
+        font-family: cursive;
+        grid-template-columns: 1fr;
+    }
+
+    .search-col-2 {
+        font-family: cursive;
+        grid-template-columns: 1fr;
+    }
+
+    .search .right {
+        font-family: cursive;
+        max-width: 100%;
+    }
+
+    .search form {
+        font-family: cursive;
+        width: 100%;
+    }
+
+    .search .date {
+        font-family: cursive;
+        flex-direction: column;
+    }
+}
